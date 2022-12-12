@@ -1,0 +1,53 @@
+{
+    "intents" : [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "What's up?",
+                "Hey, how are you doing?"
+            ],
+            "responses": [
+                "Hey Sir!",
+                "What can I do for you?"
+
+            ]
+
+        },
+
+        {
+            "tag": "Nena",
+            "patterns": [
+                 "What is Nena?",
+                 "Tell me about Nena",
+                 "Who is Nena?",
+                 "What is Nena?"
+
+            ],
+            "responses": [
+                "She is the best dog in the world"
+            ]
+
+        },
+        {
+            "tag": "name",
+            "patterns" : [
+                "What is your name?",
+                "Who are you?"
+            ],
+            "responses": [
+                "I'm Iron"
+            ]
+        },
+
+        {
+            "tag": "file",
+            "patterns": [
+                "Cretae a file",
+                "Create new file"
+            ],
+            "responses": []
+        }
+    ]
+}
